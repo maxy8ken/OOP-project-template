@@ -1,7 +1,4 @@
-Describe and explain how you used a range of good programming practices in your project. Label
-each practise used and include a screenshot or code snippet that clearly shows its use related to
-your description and explanation. Include this in a section of your report titled ‘Programming
-practises’.
+Describe and explain how you used a range of good programming practices in your project. Label each practice used and include a screenshot or code snippet that clearly shows its use related to your description and explanation.
 - clear and uncluttered mainline
 - one logical task per subroutine
 - use of stubs
