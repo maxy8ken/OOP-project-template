@@ -1,6 +1,6 @@
 Describe and explain how you used a range of OOP principles in your project. For each principle, include a very small code snippet that highlights the principle.
 - Classes
-    Classes allow for you to have instructions on how to create certain objects you can also have methods within a class to make the objects perform tasks. I used classes in my         code to describe and create people and shifts so employers can create rosters for their employees and the classes allowed me to easily create a lot of employees and shifts as       buninesses may need to create hundreds of employees and  simple set of instructions makes it a lot easier to code
+    Classes allow for you to have instructions on how to create certain objects you can also have methods within a class to make the objects perform tasks. I used classes in my         code to describe and create people and shifts so employers can create rosters for their employees and the classes allowed me to easily create a lot of employees and shifts as       buninesses may need to create hundreds of employees and simple set of instructions makes it a lot easier to code
 ```
   class Object:
     def __init__(self, name):
@@ -43,9 +43,9 @@ Describe and explain how you used a range of OOP principles in your project. For
         self.qualifications = qualifications
 - Polymorphism
   Polymorphism can be a useful tool for creating methods which do the same core function like providing info on something but you would like it to provide a deifferent form of info.
-  For example I could ha ve an info method for employees and it lets me kknow about their contact info and name but then I could also have info method for a shift which shows me      the employees working on that shift
+  For example I could have an info method for employees and it lets me know about their contact info and name but then I could also have info method for a shift which shows me        the employees working on that shift
 - Generalisation
-    Generalisation can be a powerdul programming practice which allows for easier maintainability of code. The way it works is you find similarities in attributes or methods within     your classes and then create a parent class which encapsulates that similarity so when you have to maintain the code you only change code in 1 place instead of 2.
+    Generalisation can be a powerful programming practice which allows for easier maintainability of code. The way it works is you find similarities in attributes or methods within     your classes and then create a parent class which encapsulates that similarity so when you have to maintain the code you only change code in 1 place instead of 2.
   ```
   #generalisation of employee and manager
   class Person:
