@@ -1,15 +1,14 @@
-# Programming Practices in Rostering Tool Project
+ Programming Practices in Rostering Tool Project
 
-This document outlines the good programming practices used in the development of the **Rostering Tool Project**, supported by descriptions and code snippets.
+This document outlines the good programming practices used in the development of the Rostering Tool Project, supported by descriptions and code snippets.
 
----
 
-## 1. Clear and Uncluttered Mainline
+ 1. Clear and Uncluttered Mainline
 
-**Description:**
-The `main.py` file serves as a high-level controller, delegating logic to separate modules and maintaining a clean structure.
+Description:
+The main.py file serves as a high-level controller, delegating logic to separate modules and maintaining a clean structure.
 
-**Why:**
+Why:
 Helps improve readability, testing, and modularity.
 
 ```python
@@ -78,14 +77,13 @@ while True:
         print("Invalid choice. Try again.")
 ```
 
----
 
-## 2. One Logical Task per Subroutine
+ 2. One Logical Task per Subroutine
 
-**Description:**
+Description:
 Each function within the imported classes handles a specific task, such as creating an employee or assigning a shift.
 
-**Why:**
+Why:
 Improves modularity, reuse, and ease of debugging.
 
 > Example (within Employee and Roster classes):
@@ -103,14 +101,13 @@ class Roster:
         shift.assign_employee(employee)
 ```
 
----
 
-## 3. Use of Stubs
+ 3. Use of Stubs
 
-**Description:**
+Description:
 Stub methods were used during development to allow mainline testing before full implementation.
 
-**Why:**
+Why:
 Allowed testing the menu interface and object interactions before backend logic was complete.
 
 ```python
@@ -121,14 +118,14 @@ class Shift:
         print(f"Stub: Assigned {employee.name} to shift.")
 ```
 
----
 
-## 4. Use of Control Structures and Data Structures
 
-**Description:**
+ 4. Use of Control Structures and Data Structures
+
+Description:
 The mainline uses loops, conditionals, and custom data structures (lists, classes).
 
-**Why:**
+Why:
 Manages program flow and user interaction efficiently.
 
 ```python
@@ -150,14 +147,14 @@ employees = []  # list of Employee objects
 shifts = []     # list of Shift objects
 ```
 
----
 
-## 5. Ease of Maintenance
 
-**Description:**
-Modular codebase with separate files (e.g. `Employee.py`, `Roster.py`) and descriptive variable names.
+ 5. Ease of Maintenance
 
-**Why:**
+Description:
+Modular codebase with separate files (e.g. Employee.py, Roster.py) and descriptive variable names.
+
+Why:
 Easy to update logic or expand with new features (e.g., exporting rosters).
 
 ```python
@@ -165,37 +162,35 @@ employee = Employee(employeename, employeecontact, 0, employeePayRate)
 main_roster.assign_employee_to_shift(employee, shift)
 ```
 
----
 
-## 6. Version Control
+ 6. Version Control
 
-**Description:**
+Description:
 Project tracked using Git. Each feature or fix was committed separately with clear messages.
 
-**Why:**
+Why:
 Enables team collaboration and rollback.
 
-**Example Git Log:**
+Example Git Log:
 ```
 commit 7c81a2e - Add input validation to shift assignment
 commit 3fae21e - Implement Roster assign logic
 commit 84bd201 - Create menu loop and class imports
 ```
 
----
 
-## 7. Regular Backups
 
-**Description:**
+ 7. Regular Backups
+
+Description:
 Backed up regularly to GitHub and exported zip to external drive.
 
-**Why:**
+Why:
 Protection from data loss or accidental overwrite.
 
-**Example:**
-- GitHub commit history with timestamps
+Example:
+- GitHub commit history 
 - Weekly ZIP folder archived on Google Drive
 
----
 
-Feel free to add screenshots of the code, GitHub repo, and folder backup locations for visual documentation.
+
