@@ -6,6 +6,14 @@ methods including data passed between them, loops and decisions
 - Data dictionary – show a table of planned variables each with their data types, format,
 description, validation and example value
 - Pseudocode – communicate a planned algorithm or method using pseudocode
+  ```
+     IF assigned_employee IS TRUE THEN
+          RETURN "Yes [employee at index] is working the shift"
+      ELSE
+          RETURN "no one is working this shift"
+      END IF
+  END FUNCTION
+  ```
 - Flowchart – draw a flowchart of a planned algorithm or method
 - Desk check – show a table of changing values that you used to desk check an algorithm or
 method
