@@ -1,6 +1,6 @@
-# Data Dictionary
+Data Dictionary
 
-This table summarises key variables used across the object oriented roster project. The dictionary notes the intended data type, any expected format or validation and gives example values.
+
 
 | Variable              | Data Type           | Format / Constraints           | Description                                         | Example                  |
 |-----------------------|---------------------|--------------------------------|-----------------------------------------------------|--------------------------|
